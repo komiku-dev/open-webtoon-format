@@ -1,6 +1,13 @@
-# The Open Webtoon Format
+<div align="center">
+  <img src="/assets/wordmark.png" alt="Project Banner" width="800"/>
+</div>
 
-An open-source initiative by **Komiku** to create a modern, dynamic, and accessible file format standard for webtoons and digital comics.
+---
+
+> [!NOTE]
+> **This is an open-source initiative by Komiku** to create a modern, dynamic, and accessible file format standard for webtoons and digital comics.
+
+# The Open Webtoon Format
 
 ## A Dynamic Future for Digital Comics
 
@@ -16,27 +23,35 @@ The Open Webtoon Format isn't just a theoretical exercise; it's our answer to th
 
 ## Project vs. Published Files
 
-The **owt** ecosystem uses a professional two-file system, separating the creator's rich, editable project from the lightweight, optimized file meant for publication.
+The **`owt`** ecosystem uses a professional two-file system, separating the creator's rich, editable project from the lightweight, optimized file meant for publication.
 
-- **The Project File `.owtproj:`** The master source file for the creator. This is a complex, non-destructive container that holds every layer, every asset, and every piece of editable text for a single **chapter**.
-- **The Published File `.owtpub`:** The file for the reader. This is a single, **packaged**, and highly-optimized file that is easy for web platforms and reader apps to parse and display efficiently.
+-   **The Project File: `.owtproj`**
+    The master source file for the creator. This is a complex, non-destructive container that holds every layer, every asset, and every piece of editable text for a single **chapter**.
 
-## Key Benefits for Platforms & Translators
+-   **The Published File: `.owtpub`**
+    The file for the reader. This is a single, **packaged**, and highly-optimized file that is easy for web platforms and reader apps to parse and display efficiently.
+
+## Key Benefits
+
+### For Platforms & Translators
 
 A standardized, dynamic format creates a better experience across the entire ecosystem. The translation process is radically simplified—instead of manually editing hundreds of images, translators can work with a single text file. Platforms can leverage a unified standard to build innovative features, deliver content more efficiently, and serve a global audience with on-the-fly translations.
 
-## Key Benefits for Readers
+### For Readers
 
 For the first time, webtoons can become truly accessible. Because text is no longer flattened into the artwork, it can be read aloud by screen readers, translated on the fly, or resized for comfort. This new foundation also enables interactive elements to enrich the story and allows for more efficient data packaging that can lead to faster load times.
 
+---
+
 ## Specification (Work in Progress)
 
-The full v1.0 specification for the `.owtproj` and `.owtpub` formats is currently under active development. The goal is to create a standard that is both powerful for creators and efficient for platforms. Community feedback during this phase is highly encouraged.
+> [!WARNING]
+> The full v1.0 specification for the `.owtproj` and `.owtpub` formats is currently under active development. The goal is to create a standard that is both powerful for creators and efficient for platforms. Community feedback during this phase is highly encouraged.
 
 ## Contributing
 
-This is an open-source project. If you want to help in any way, please reach out to **oss@komiku.moe.**
+This is an open-source project and we welcome contributions! If you want to help in any way, please feel free to open an issue or reach out to us at **oss@komiku.moe**.
 
 ## License
 
-The Open Webtoon Format specification and all official tooling are permissively licensed under the **MIT License** to encourage broad adoption.
+The Open Webtoon Format specification and all official tooling are permissively licensed under the **[MIT License](LICENSE)** to encourage broad adoption.
